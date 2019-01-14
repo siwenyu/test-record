@@ -1,5 +1,5 @@
 {
-  "name": "zmyapp",
+  "name": "test-record",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "siwenyu <siwenyu@baidu.com>",
@@ -89,7 +89,7 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
+    "webpack-dev-server": "^2.11.3",
     "webpack-merge": "^4.1.0"
   },
   "engines": {

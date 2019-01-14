@@ -1,15 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import index from '@/page/index'
-import page1 from '@/page/page1'
-import page11 from '@/page/page11'
-import page12 from '@/page/page12'
-import page13 from '@/page/page13'
-import page14 from '@/page/page14'
-import page15 from '@/page/page15'
-import page16 from '@/page/page16'
-import page17 from '@/page/page17'
-import page18 from '@/page/page18'
 import indexmk from '@/page/indexmk'
 import indexcallapply from '@/page/indexcallapply'
 import indexanquan from '@/page/indexanquan'
@@ -53,16 +44,11 @@ export default new Router({
         {
             path: '/',
             name: '',
-            component: page1
+            component: indexemoji
         },{
             path: '/index',
             name: 'index',
             component: index
-        },
-        {
-            path: '/page1',
-            name: 'page1',
-            component: page1
         },
         {
             path: '/indexmk',
